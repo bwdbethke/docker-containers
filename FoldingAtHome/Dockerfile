@@ -23,4 +23,4 @@ RUN apt-get update &&\
 EXPOSE 7396
 
 ENTRYPOINT ["FAHClient", "--web-allow=0/0:7396", "--allow=0/0:7396"]
-CMD ["--user=Anonymous", "--team=241561", "--gpu=true", "--smp=true", "--power=full", "--gpu-usage=100", "--cpu-usage=100"]
+CMD ["--user=scubaaadan", "--team=241561", "--gpu=true", "--smp=true", "--power=full", "--gpu-usage=90", "--cpu-usage=90"]
